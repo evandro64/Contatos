@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.contatos"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/agenda72"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.contatos.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.contatos.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.contatos.NovoContatoActivity"
+            android:label="@string/title_activity_novo_contato" >
+        </activity>
+        <activity
+            android:name="com.example.contatos.ListaContatosActivity"
+            android:label="@string/title_activity_lista_contatos" >
+        </activity>
+        <activity
+            android:name="com.example.contatos.VideoActivity"
+            android:label="@string/title_activity_video" >
+        </activity>
+    </application>
+
+</manifest>

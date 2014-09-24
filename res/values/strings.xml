@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Contatos</string>
+    <string name="title_activity_novo_contato">Novo Contato</string>
+    <string name="exit_title">Sair da Aplicação</string>
+    <string name="exit_msg">Voce Realmente deseja Sair da Aplicação?</string>
+    <string name="exit_sim">Sim</string>
+    <string name="exit_nao">Não</string>
+    <string name="btnNovoContato">Novo Contato</string>
+    <string name="btnListar">Listar Contatos</string>
+    <string name="preencha">Preencha os campos</string>
+    <string name="nomeContato">Nome:</string>
+    <string name="telContato">Telefone:</string>
+    <string name="URLContato">URL:</string>
+    <string name="btnInserir">Inserir</string>
+    <string name="escolhaImg">Escolha uma imagem.</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="btnLimpar">Limpar</string>
+    <string name="hintNome">SeuNome Sobrenome</string>
+    <string name="hintTel">(DDD)9999.9999</string>
+    <string name="hintURL">http://urlvideo@youtube.com</string>
+    <string name="title_activity_lista_contatos">Lista de contatos</string>
+    <string name="title_activity_video">Video YouTube</string>
+    <string name="action_settings">Settings</string>
+    <string name="video_contato">Video do contato</string>
+    <string name="dialog_exit_title">Sair da aplicação</string>
+    <string name="dialog_exit_msg">Deseja sair da aplicação?</string>
+    <string name="dialog_exit_sim">Sim</string>
+    <string name="dialog_exit_nao">Não</string>
+
+</resources>
